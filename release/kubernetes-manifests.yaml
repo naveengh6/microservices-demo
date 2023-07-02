@@ -319,7 +319,7 @@ spec:
     app: frontend
   ports:
   - name: http
-    port: 80
+    port: 8080
     targetPort: 8080
 ---
 apiVersion: v1
@@ -332,7 +332,7 @@ spec:
     app: frontend
   ports:
   - name: http
-    port: 80
+    port: 8080
     targetPort: 8080
 ---
 apiVersion: apps/v1
